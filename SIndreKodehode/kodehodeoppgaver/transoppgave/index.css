@@ -1,0 +1,62 @@
+.container{
+    width: 600px;
+    height: 600px;
+    
+}
+
+
+.bar{
+    background-color: green;
+    width: 100px;
+    height:100px;
+    transition-delay: 1s;
+    transition-duration: 2s;
+    margin-top: 10px;
+
+    
+    
+}
+.bar:hover{
+    width: 200px;
+}
+.text{
+    font-size:20px;
+    transition-duration: 2s;
+    margin-top:30px
+  
+
+}
+.text:hover{
+    font-size:60px;
+}
+.cubic{
+    width: 100px;
+    height:100px;
+    background-color: brown;
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(0.62, 0.26, 0.5, 0.97);
+    margin-top:30px;
+
+    
+    
+    
+}
+.cubic:hover{
+width: 200px;
+background-color: green;
+}
+.transform{
+    width: 100px;
+    height: 100px;
+    transition: all;
+    transition-duration: 2s;
+    background-color: blue;
+    color: bisque;
+    margin-top: 30px;
+}
+.transform:hover{
+
+    background-color: black;
+    border-radius: 30%;
+    transform:rotate(360deg)
+}

@@ -1,0 +1,32 @@
+h1 {
+  margin: 0 auto;
+  text-align: center;
+  padding-left: 112px;
+  padding-bottom: 30px;
+}
+
+table {
+  border: 5px solid;
+  border-color: gray black black gray;
+  border-collapse: collapse;
+  width: 1300px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+th,
+td {
+  border: 2px solid gray;
+  text-align: center;
+  height: 50px;
+}
+
+.LUNCH {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  font-weight: bolder;
+  font-size: larger;
+}
+.container {
+  border: 1px solid black;
+  padding-bottom: 50px;
+}

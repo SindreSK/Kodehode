@@ -1,0 +1,22 @@
+body{
+    
+margin: 0;
+}
+kbd{
+    color:blue;
+    border: red 3px solid;
+    font-weight: bold;
+    box-shadow:0 0 10px purple;
+}
+.kbd{
+    background-color: red;
+    color:white;
+    padding-bottom: 20px;
+    text-align:center;
+}
+.code{
+    border: blue 5px solid;
+}
+em{
+    font-size: 19px;
+}

@@ -1,0 +1,68 @@
+body, html{
+    height:100%;
+    margin:0;
+    line-height: 1.8em;
+    font-weight: 600;
+    color: 666;
+}
+h2{
+    text-align: center;
+}
+.pimg1, .pimg2, .pimg3{
+    position:relative;
+    opacity: 0.80;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.pimg1{
+    background-image:url(bilde1.jpg);
+    min-height: 100%;
+    background-size:100%;
+   
+
+}
+
+.pimg2{
+    background-image:url(bilde2.jpg);
+    min-height: 400px;
+  
+
+
+}
+.pimg3{
+    background-image:url(bilde3.jpg);
+    min-height: 400px;
+   
+
+
+}
+.section{
+    text-align: left;
+    padding:50px 80px;
+}
+.section-dark{
+    background-color: black;
+    color:white;
+}
+.ptext{
+    position:absolute;
+    top:50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+}
+.ptext .border{
+    background-color: #777;
+    color: white;
+    padding:5px
+}
+.section-one{
+    text-align: center;
+}
+
+

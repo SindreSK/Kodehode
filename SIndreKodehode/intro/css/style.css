@@ -1,0 +1,32 @@
+body {
+    background-color: #333;
+    color: #f4f4f4;
+}
+a {
+    color: red;
+}
+.intro {
+    font-size: 50px; color: blue;
+}
+header {
+background-color: white;
+color: black;
+width: 300px;
+margin: 20px 30px 10px 20px;
+padding: 10px;
+/* padding bruker man for og lage rom "inni boksen",
+og den funker helt likt som marginer(se med klokken)nedenfor. */
+
+}
+footer {
+    background-color: white;
+    color: black;
+    width: 500px;
+    margin: 20px 30px 10px 20px;
+    /* man kan også bruke "margin: 20px 30px" om man vil ha både top og bunn på 20 og sidene på 30px */
+    /* marginer går alltid med klokken så første tall blir alltid "klokken 12" og så videre.  */
+    /* setter man bare 1 tall så blir alle 4 sidene samme "value" */
+}
+    
+
+

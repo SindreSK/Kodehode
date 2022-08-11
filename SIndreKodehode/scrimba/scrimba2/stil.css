@@ -1,0 +1,48 @@
+
+img{
+    width: 100%; height:auto;
+}
+main{
+    text-align:center;
+    background-color: lightgray;
+    color:black;
+    margin-left: auto;
+    margin-right:auto;
+    width: 500px;
+    margin-top: 25px;
+    padding: 25px;
+}
+h1{
+    text-align: center;
+    color: #2a7de3;
+    font-size: 48px;
+}
+h2{
+    font-size: 32px;
+}
+
+.intro{
+    font-size: 32px;
+    color: #104c90;
+}
+a:link{
+    color: #ff8000;
+}
+a:visited{
+    color:purple;
+
+}
+a:focus{
+    color:red;
+}
+a:hover{
+    color:red;
+}
+.para{
+    margin-top:25px;
+    margin-bottom: 9px;
+    
+}
+.para2{
+    margin-top:9px;
+}

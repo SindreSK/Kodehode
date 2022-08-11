@@ -1,0 +1,140 @@
+body{
+    margin:0
+}
+header{
+   
+    width: 100%;
+    height:150px;
+    background-color: antiquewhite;
+    color: green;
+    text-align: center;
+
+}
+h1{
+    padding-top: 50px;
+    margin:0
+}
+
+
+
+.ball1{
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    animation-name: ballone;
+    animation-duration: 4s;
+    position: relative;
+    animation-iteration-count: infinite;
+    
+    
+    
+    
+}
+.ball3{
+    width: 100px;
+    height: 100px;
+    border-radius: 80%;
+    background-color: red;
+    position: relative;
+    animation-name: ballthree;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 10px;
+}
+.tittel{
+    background-color: aquamarine;
+    color:brown;
+    padding:5px 10px 5px 10px;
+   
+ 
+}
+
+
+.ball2{
+    background-color: blue;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    animation-name: balltwo;
+    animation-duration: 4s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.bg1{
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+    background-color: blueviolet;
+    animation-name: bgchange;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    position: relative;
+    
+    
+}
+.bg2{
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    animation-name: bg2change;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    padding-top: 15px;
+    margin-top: 20px;
+    
+}
+
+
+    
+    
+
+@keyframes balltwo {
+    0%   {background-color:blue; left:100%; top:0px;}
+    25%  {background-color:orange; left:60%;}
+    50%  {background-color:black; left:30%;}
+    75%  {background-color:lightgoldenrodyellow; left:10%;}
+    100% {background-color:bisque; left:0%;}
+    
+}
+@keyframes ballthree {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:500px; top:0px;}
+    50%  {background-color:blue; left:300px; top:200px;}
+    75%  {background-color:green; left:900px; top:200px;}
+    100% {background-color:purple; left:0px; top:0px;}
+    
+}
+
+@keyframes bg2change {
+    from{
+        background-color: red;
+    }to{
+        background-color: orange;
+        
+    }
+    
+}
+
+@keyframes bgchange {
+    from{
+        background-color: blueviolet;
+    }
+    to{
+        background-color: red;
+        
+    }
+    
+}
+@keyframes ballone {
+    0%   {background-color:red; left:0%; top:0px;}
+    25%  {background-color:yellow; left:10%;}
+    50%  {background-color:blue; left:30%;}
+    75%  {background-color:green; left:60%;}
+    100% {background-color:red; left:100%;}
+  }
+
+ 

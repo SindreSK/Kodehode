@@ -1,0 +1,90 @@
+/* når man skal style linker må man alltid huske rekkefølge som:
+a:linke
+a:visited
+a:focus
+a:hover
+a:active */
+body{
+    margin: 0;
+    font-size: 21px;
+    /* dette setter skrift størrelse på alt */
+
+}
+h1 {
+    font-size: 48px;
+
+    
+}
+h2{
+    font-size: 36px;
+}
+h3{
+    font-size: 28px;
+
+    /* layout */
+
+}
+header {
+
+    background-color: #588C94;
+    color: black;
+    text-align: center;
+    padding: 20 0 20 0;
+    margin-bottom: 80px;
+
+
+}
+.introduction{
+    background-color: #588C94 ;
+    color: black;
+    text-align: center;
+    border: solid 5px blue;
+    margin:100px auto;
+    width: 600px;
+
+
+}
+.my-skills{
+    background-color: #1D3C41;
+    color: white;
+    padding: 75px;
+    text-align: center;
+    
+
+
+}
+
+.kolonner{
+display:flex;
+gap: 10px;
+}
+.kolonne{
+    margin: 0;
+    border:solid gray 5px;
+    padding: 50px;
+    background-image: url(mercury.jpg);
+    background-size: contain;
+    background-size: cover;
+    border-radius: 80%;
+
+
+
+}
+.kolonne3{
+
+margin: 0;
+    border:solid gray 5px;
+    padding: 50px;
+    background-image: url(kaffe.jpg);
+    background-size: contain;
+    background-size: cover;
+    border-radius: 80%;
+
+
+}
+
+
+
+
+
+

@@ -1,0 +1,77 @@
+*{
+    margin:0;
+}
+
+body{
+   margin:0;
+
+}
+h1{
+    font-size:36px;
+    font-style: bold;
+    padding-top: 150px;
+    margin:0 auto;
+
+}
+h2{
+    margin:0;
+    font-style:bold;
+}
+p{
+    margin:0;
+}
+
+header{
+    background-image: linear-gradient(
+        115deg,
+        hsl(240deg 100% 20%) 0%,
+        hsl(298deg 100% 21%) 17%,
+        hsl(324deg 100% 32%) 33%,
+        hsl(336deg 100% 42%) 48%,
+        hsl(0deg 93% 61%) 61%,
+        hsl(24deg 100% 57%) 74%,
+        hsl(42deg 100% 50%) 87%,
+        hsl(55deg 100% 50%) 100%
+      );
+      color:white;
+      width: 100%;
+      height: 400px;
+      margin:0;
+            
+}
+.container{
+        width: 1000px;
+        margin:0 auto;
+        text-align: center;   
+    
+}
+
+.container-calc{
+    padding-top: 10px;
+    font-size: 60px;
+    margin:0;
+    
+}
+.section-one{
+    background-color: black;
+    margin:0;
+    color:white;
+
+
+}
+.section-two{
+    background-color: black;
+    color:white;
+    margin:0;
+
+}
+.section-three{
+    background-color: black;
+    color:white;
+    margin:0;
+
+}
+.section{
+    height: 150px;
+    padding:0;
+}

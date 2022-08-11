@@ -1,0 +1,60 @@
+body{
+    margin:0;
+    background-color: white;
+}
+
+h1{
+    font-size:36px;
+}
+h2{
+    font-size:24px;
+    color: #ef5839;
+}
+
+
+.container{
+    width: 620px;
+    margin:0 auto;
+}
+header{
+    background-color: #2e354f;
+    color:white;
+    padding: 25px;
+}
+
+.section-one{
+    padding:50px 0 50px 0;
+}
+
+
+.section-two{
+  background-color: #2e354f;
+  color: white;
+  padding: 10px 0 25px;
+}
+
+.btn{
+    padding:10px 25px;
+    text-decoration: 0;
+    font-weight: bold;
+    display:inline-block;
+
+}
+.btn-orange{
+    background-color: #ef5839;
+    color: white;
+}
+.btn-white{
+    background-color: white;
+    color:black;
+}
+a{
+    color:#ef5839;
+}
+a:hover, 
+a:focus{
+    color:grey;
+}
+
+
+

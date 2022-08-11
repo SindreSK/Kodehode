@@ -1,3 +1,6 @@
 # Kodehode
 All my codes from kodehode
-- [Drumkit Project](https://sindresk.github.io/Kodehode/SIndreKodehode/kodehodeoppgaver/drumkit/)
+Sample of small assigments from the course!
+- [Drumkit](https://sindresk.github.io/Kodehode/SIndreKodehode/kodehodeoppgaver/drumkit/)
+- [Collatz](https://sindresk.github.io/Kodehode/SIndreKodehode/kodehodeoppgaver/collatz)
+- 

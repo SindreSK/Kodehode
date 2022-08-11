@@ -1,3 +1,3 @@
 # Kodehode
 All my codes from kodehode
-- [drumkit](sindreSK/kodehode/kodehudeoppgaver/drumkit)
+- [Drumkit Project](https://sindresk.github.io/Kodehode/SIndreKodehode/kodehodeoppgaver/drumkit/)

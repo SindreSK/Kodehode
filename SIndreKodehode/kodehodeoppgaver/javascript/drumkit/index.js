@@ -38,11 +38,18 @@ window.addEventListener("keydown", (e) =>{
     }
     
 })
-// This plays the sounds refered to in the switchcase and adds and removes the box shadow on the elements
+// This plays the sounds refered to in the switchcase.
+
+
 const playsounds = (sound, cont)=>{
     sound.play()
     cont.classList.add("playing")
+
+    // here we set a timeout so the sound and the animation on buttons can "re-pressed"
+    
     setTimeout(() => cont.classList.remove("playing"), 150)
         
 
 }
+
+

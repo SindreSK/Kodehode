@@ -5,7 +5,7 @@ const clap = new Audio("DrumSounds/clap.wav")
 const hiHat = new Audio("DrumSounds/hihat.wav")
 const openHat = new Audio("DrumSounds/openhat.wav")
 
-
+// creating variables from html
 const drum1 = document.getElementById("hihat")
 const drum2 = document.getElementById("kick")
 const drum3 = document.getElementById("clap")

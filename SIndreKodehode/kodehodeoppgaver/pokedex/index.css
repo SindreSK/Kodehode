@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+html {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    background-color: #888;
+    color: #fa0;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(#e00, #f00 40%, #a00 100%);
+    border-bottom: 2px solid #fd0;
+    box-shadow: 0 2px 2px #fa0, 0 4px 4px #420;
+    padding-inline: 1.625rem;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+nav button {
+    border: none;
+    background: none;
+    font-weight: bold;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+h1 {
+    font-size: 1.75rem;
+}
+h1, nav button {
+    width: fit-content;
+    font-weight: 900;
+    text-align: center;
+    margin-block: auto;
+    padding-block: 0.5rem;
+    letter-spacing: 0.125rem;
+    color: #fd0;
+    text-shadow: 
+        2px 2px #04f, 
+        -2px -2px #04f,
+        2px -2px #04f,
+        -2px 2px #04f,
+        0px 4px 4px #000,
+        0px 6px 8px #000;
+    cursor: pointer;
+}
+h1:hover, h1:active, 
+nav button:hover, nav button:active {
+    color: #4f4;
+    filter: brightness(80%) contrast(200%);
+}
+main {
+    margin-top: 5rem;
+}
+
+.poke-list {
+    margin-inline: auto;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+.card {
+    color: #000;
+    width: 200px;
+    background-color: #afa;
+    border: 1px solid #000;
+    outline: 8px solid #fd4;
+    border-radius: 8px;
+    box-shadow: 
+        0 0 0px 9px #000, 
+        0 0 8px 8px #000, 
+        inset 0 0 34px 0 #0000007f;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    cursor: pointer;
+}
+.card:hover,
+.card:active {
+    filter: brightness(80%) contrast(200%);
+}
+.card h2 {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+}
+.card > img {
+    min-width: 100%;
+    aspect-ratio: 1;
+}
+.card * {
+    flex-basis: 100%;
+}
+.card-big {
+    padding-inline: 4rem;
+    display: flex;
+    width: 80%;
+}
+.card-big h2 {
+    font-size: 1.5rem;
+}
+.card-big h3 {
+    width: fit-content;
+}
+.card-stats {
+    display: flex;
+}
+.card-images {
+    display: flex;
+}

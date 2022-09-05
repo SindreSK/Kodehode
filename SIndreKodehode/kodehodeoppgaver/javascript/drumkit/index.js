@@ -20,21 +20,25 @@ window.addEventListener("keydown", (e) =>{
          
             
             break;
+
         case 's':
             playsounds(clap, drum2)
 
             
             break;
+
         case 'd':
             playsounds(kick, drum3)
              
 
             break;
+
         case 'f':
             playsounds(openHat, drum4)
             
 
             break;
+
     }
     
 })
@@ -46,9 +50,7 @@ const playsounds = (sound, cont)=>{
     cont.classList.add("playing")
 
     // here we set a timeout so the sound and the animation on buttons can "re-pressed"
-    
     setTimeout(() => cont.classList.remove("playing"), 150)
-        
 
 }
 

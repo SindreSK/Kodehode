@@ -3,14 +3,18 @@ body{
     font-family: 'Rubik', sans-serif;
 
 }
-h1{
+.header img{
+    height: 200px;
+    width: 200px;
+}
+.header{
     background-color: #222224;
     color:#f0f0f0;
     text-align: center;
     font-weight: bolder;
     margin:0;
     padding: 50px;
-    
+    font-size: 40px;
 }
 
 .card{
@@ -47,6 +51,7 @@ padding: 10px 30px 10px 30px;
     display:grid;
     grid-template-columns: repeat(auto-fit,  minmax( 320px, 1fr));
     grid-gap: 40px 15px;
+    
     
 }
 .container{

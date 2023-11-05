@@ -1,0 +1,271 @@
+header, body, footer {
+    font-family: 'Lato', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    min-height: 70px;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    justify-content: space-evenly;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.header-button {
+    font-size: 1.5rem;
+}
+
+.logo img  {
+    max-width: 110px;
+    float: left;
+    margin: 0px 40px 0px 0px;
+}
+
+body {
+    background-color: #000A1B;
+    color: #fff;
+    margin: 0;
+}
+
+main {
+    margin: 0 auto;
+}
+
+.current {
+    text-decoration: underline;
+}
+
+footer {
+    color: white;
+    background-color: #000712;
+
+}
+
+nav li {
+    display: block;
+    padding: 30px 30px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a {
+    color: #000A1B;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.headermenu {
+    margin-left: 25px;
+    display: none;
+    position: fixed;
+    top: 45px;
+    right: 20px;
+    background-color: #fff;
+}
+
+#hamburger-menu:checked ~ nav {
+    display: block;
+}
+
+#hamburger-menu {
+    display: none;
+}
+
+.fa-bars {
+font-size: 1.5em;
+color: #000a1b;
+}
+
+.fa-cart-shopping {
+    color: #000a1b;
+    font-size: 1.5em;
+}
+
+.background-section {
+    background-repeat: no-repeat;
+    background-image: linear-gradient(90deg, rgba(0,0,0,0.5046393557422969) 38%, rgba(0,0,0,0) 100%), url(/CA/images/iStock-1354761874.jpg);
+    background-size: cover;
+    min-height: 30vh;
+    font-size: 2rem;
+    background-position-x: left;
+    background-position-y: top;
+    position: relative;
+}
+
+.ceo_images {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.form__input {
+    display: block;
+}
+
+.address {
+    font-size: 1rem;
+}
+
+.gamehub-info {
+    grid-area: info;
+    grid-column: span 2;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 0.8rem;
+}
+
+.logo-support {
+    grid-area: logo-support;
+    grid-column: span 2;
+    justify-self: center;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.ceo-image {
+    grid-area: ceo-image;
+    margin-top: 50px;
+    justify-self: center;
+    grid-column: span 2;
+}
+
+.ceo-info {
+    grid-area: ceo-info;
+    margin-top: 50px;
+    grid-column-start: 2;
+    grid-column: span 2;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.contact {
+    grid-area: contact;
+    margin-top: 50px;
+    grid-column: span 4;
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactpage {
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    'info'
+    'ceo-image'
+    'ceo-info'
+    'contact'
+    'logo-support'
+}
+
+form {
+    margin-top: 50px;
+    width: 90%;
+}
+
+.input-group {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 1rem;
+}
+
+button {
+    padding: 10px 0;
+    color: #fff;
+    outline: none;
+    background: transparent;
+    border: 1px solid #fff;
+    width: 100%;
+    cursor: pointer;
+}
+
+@media (min-width: 600px){
+    .background-section {
+        min-height: 60vh;
+    }
+}
+
+@media (min-width: 800px){
+    header label {
+        display: none;
+    }
+
+    header {
+        justify-content: start;
+    }
+
+    .headermenu {
+        display: block;
+        position: static;
+    }
+
+    nav li {
+        display: inline-block;
+        padding: 0px;
+    }
+
+    .contactpage {
+        display: grid;
+        width: 100%;
+        margin: auto;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        'info info logo-support'
+        'ceo-image ceo-info .'
+        'contact contact contact'
+    }
+
+    .logo-support {
+        grid-column-start: 4;
+        text-align: start;
+    }
+
+    .gamehub-info {
+        text-align: start;
+        font-size: 1rem;
+    }
+
+    .ceo_images {
+        width: 200px;
+    }
+
+    .ceo-image {
+        grid-column: span 1;
+    }
+
+    .ceo-info {
+        font-size: 1rem;
+        text-align: start;
+        margin-left: 30px;
+    }
+
+    }
+
+    @media (min-width: 1000px){
+        .background-section {
+            min-height: 90vh;
+    } 
+
+    form {
+        width: 800px;
+    }
+}

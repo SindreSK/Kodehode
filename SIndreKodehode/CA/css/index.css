@@ -1,0 +1,252 @@
+header, body, footer {
+    font-family: 'Lato', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    min-height: 70px;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    justify-content: space-evenly;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.header-button {
+    font-size: 1.5rem;
+}
+
+.logo img  {
+    max-width: 110px;
+    float: left;
+    margin: 0px 40px 0px 0px;
+}
+
+body {
+    background-color: #000A1B;
+    color: #fff;
+    margin: 0;
+}
+
+.current {
+    text-decoration: underline;
+}
+
+footer {
+    color: white;
+    background-color: #000712;
+
+}
+
+nav li {
+    display: block;
+    padding: 30px 30px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a {
+    color: #000A1B;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.headermenu {
+    margin-left: 25px;
+    display: none;
+    position: fixed;
+    top: 45px;
+    right: 20px;
+    background-color: #fff;
+}
+
+#hamburger-menu:checked ~ nav {
+    display: block;
+}
+
+#hamburger-menu {
+    display: none;
+}
+
+.fa-bars {
+font-size: 1.5em;
+color: #000a1b;
+}
+
+.fa-cart-shopping {
+    color: #000a1b;
+    font-size: 1.5em;
+}
+
+.mainpage {
+    margin: auto;
+}
+
+.games-homepage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    width: auto;
+    margin: 30px;
+    }
+
+.game-homepage img {
+    width: 100%;
+}
+
+.game-homepage:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.newreleases {
+    margin: 20px 0px 30px 30px;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.logo {
+    color: #000A1B;
+}
+
+.cta {
+    color: black;
+    background-color: #3FA535;
+    font-size: 1.5rem;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    border-radius: 60px;
+    margin: 0px 10px 0px 10px;
+}
+
+.homepagequote {
+    position: relative;
+    top: 40px;
+    left: 20px;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 3px #000A1B;
+    margin: 0px 0px 0px 10px;
+    z-index: 2;
+}
+
+.background-section {
+    background-repeat: no-repeat;
+    background-image: linear-gradient(90deg, rgba(0,0,0,0.5046393557422969) 38%, rgba(0,0,0,0) 100%), url(/CA/images/iStock-1354761874.jpg);
+    background-size: cover;
+    min-height: 30vh;
+    font-size: 2rem;
+    background-position-x: left;
+    background-position-y: top;
+    position: relative;
+}
+
+@media (min-width: 600px){
+    .background-section {
+        min-height: 60vh;
+    }
+}
+
+@media (min-width: 800px){
+    .games-homepage {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px;
+        width: auto;
+        margin: 30px;
+        justify-items: center;
+        align-items: center;
+        }
+    
+    .cta {
+        font-size: 2rem;
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        border-radius: 60px;
+        margin: 0px 70px 0px 70px;
+        display: inline-block;
+        white-space: nowrap;
+        }
+    
+    .nav {
+        white-space: nowrap;
+        grid-column: span 1;
+        }
+
+    header label {
+        display: none;
+    }
+
+    header {
+        justify-content: start;
+    }
+
+    .headermenu {
+        display: block;
+        position: static;
+    }
+
+    nav li {
+        display: inline-block;
+        padding: 0px;
+    }
+    }
+
+    @media (min-width: 1000px){
+        .cta {
+            font-size: 3rem;
+            padding-top: 15px;
+            padding-right: 30px;
+            padding-bottom: 15px;
+            padding-left: 30px;
+            border-radius: 60px;
+            margin: 0px 70px 0px 70px;
+            display: inline-block;
+            white-space: nowrap;
+            }
+        
+        .homepagequote {
+            font-size: 3rem;
+            padding-top: 10px;
+            padding-right: 30px;
+            padding-bottom: 10px;
+            padding-left: 30px;
+            border-radius: 60px;
+            margin: 0px 70px 0px 20px;
+            justify-items: center;
+            align-items: center;
+            }
+        
+        .newreleases {
+            margin: 20px 0px 30px 30px;
+            font-size: 2rem;
+            font-style: italic;
+        }
+        
+        .nav {
+            white-space: nowrap;
+            grid-column: span 1;
+            }
+        .background-section {
+            min-height: 90vh;
+    } 
+    }
+    
+
+@media (max-width: 799px){
+nav {
+    grid-column: span 3;
+    white-space: nowrap;
+}
+}

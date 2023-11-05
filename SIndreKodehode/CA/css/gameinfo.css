@@ -1,0 +1,224 @@
+
+header, body, footer {
+    font-family: 'Lato', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    min-height: 70px;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    justify-content: space-evenly;
+}
+
+.header-button {
+    font-size: 1.5rem;
+}
+
+.logo img  {
+    max-width: 110px;
+    float: left;
+    margin: 0px 40px 0px 0px;
+}
+
+body {
+    background-color: #000A1B;
+    color: #fff;
+    margin: 0;
+}
+
+.current {
+    text-decoration: underline;
+}
+
+footer {
+    color: white;
+    background-color: #000712;
+
+}
+
+nav li {
+    display: block;
+    padding: 30px 30px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a {
+    color: #000A1B;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.headermenu {
+    margin-left: 25px;
+    display: none;
+    position: fixed;
+    top: 45px;
+    right: 20px;
+    background-color: #fff;
+}
+
+#hamburger-menu:checked ~ nav {
+    display: block;
+}
+
+#hamburger-menu {
+    display: none;
+}
+
+.fa-bars {
+font-size: 1.5em;
+color: #000a1b;
+}
+
+.fa-cart-shopping {
+    color: #000a1b;
+    font-size: 1.5em;
+}
+
+.fa-star {
+    color: #ffffff;
+}
+
+.background-section {
+    background-repeat: no-repeat;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.813) 38%, rgba(0, 0, 0, 0.909) 100%), url(/CA/images/iStock-1354761874.jpg);
+    background-size: cover;
+    min-height: 30vh;
+    font-size: 2rem;
+    background-position-x: left;
+    background-position-y: top;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    font-size: 1em;
+}
+
+.review-title {
+    margin: 30px;
+}
+
+.Reviews {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    gap: 30px;
+    margin: 30px;
+}
+
+.game-cover {
+    z-index: 2;
+    position: relative;
+    justify-self: center;
+    align-self: center;
+    margin-top: 30px;
+}
+
+.game-cover img {
+    max-width: 300px;
+}
+
+.game-info {
+    z-index: 2;
+    margin: 80px 30px 0px 30px;
+    }
+
+.add-to-cart {
+    text-decoration: none;
+    color: black;
+    background-color: #3FA535;
+    font-size: 1.5em;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border-radius: 60px;
+    margin: 0px 10px 0px 10px;
+    white-space: nowrap;
+
+}
+
+.price {
+    margin-left: 30px;
+}
+
+.add-to-cart:hover {
+    text-decoration: underline;
+}
+
+.moregames-div {
+    z-index: 2;
+    margin-top: -30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    justify-self: flex-end;
+}
+
+.moregames-gamepage {
+    text-decoration: none;
+    color: #fff;
+    font-style: italic;
+    white-space: nowrap;
+}
+
+.moregames-gamepage:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 600px){
+    .background-section {
+        min-height: 60vh;
+    }
+
+    .game-cover img {
+        max-width: 500px;
+    }
+
+    .moregames-div {
+        justify-self: center;
+    }
+}
+
+@media (min-width: 800px){
+    header label {
+        display: none;
+    }
+
+    .background-section {
+        font-size: 1.5em;
+    }
+
+    header {
+        justify-content: start;
+    }
+
+    .headermenu {
+        display: block;
+        position: static;
+    }
+
+    nav li {
+        display: inline-block;
+        padding: 0px;
+    }
+    }
+
+    @media (min-width: 1000px){
+        .background-section {
+            min-height: 90vh;
+    } 
+
+    .background-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .Reviews {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 100px;
+    }
+    }

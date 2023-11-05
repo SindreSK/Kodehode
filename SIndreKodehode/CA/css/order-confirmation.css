@@ -1,0 +1,189 @@
+header, body, footer {
+    font-family: 'Lato', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    min-height: 70px;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    justify-content: space-evenly;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.header-button {
+    font-size: 1.5rem;
+}
+
+.logo img  {
+    max-width: 110px;
+    float: left;
+    margin: 0px 40px 0px 0px;
+}
+
+body {
+    background-color: #000A1B;
+    color: #fff;
+    margin: 0;
+}
+
+.current {
+    text-decoration: underline;
+}
+
+footer {
+    color: white;
+    background-color: #000712;
+
+}
+
+nav li {
+    display: block;
+    padding: 30px 30px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a {
+    color: #000A1B;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.headermenu {
+    margin-left: 25px;
+    display: none;
+    position: fixed;
+    top: 45px;
+    right: 20px;
+    background-color: #fff;
+}
+
+#hamburger-menu:checked ~ nav {
+    display: block;
+}
+
+#hamburger-menu {
+    display: none;
+}
+
+.fa-bars {
+font-size: 1.5em;
+color: #000a1b;
+}
+
+.fa-cart-shopping {
+    color: #000a1b;
+    font-size: 1.5em;
+}
+
+.background-section {
+    background-repeat: no-repeat;
+    background-image: url(/images/iStock-1354761874.jpg);
+    background-size: cover;
+    min-height: 30vh;
+    font-size: 2rem;
+    background-position-x: left;
+    background-position-y: top;
+    position: relative;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.background-section::after {
+    content: "";
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.941) 38%, rgba(0, 0, 0, 0.895) 100%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+div {
+    z-index: 2;
+}
+
+.game-homepage:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.logo {
+    color: #000A1B;
+}
+
+.cart-empty {
+    z-index: 2;
+    position: relative;
+    font-size: 1rem;
+}
+
+.homepage-button {
+    z-index: 2;
+    position: relative;
+    font-style: italic;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.homepage-button:hover {
+    text-decoration: underline;
+}
+
+
+@media (min-width: 600px){
+    .background-section {
+        min-height: 60vh;
+    }
+}
+
+@media (min-width: 800px){
+    header label {
+        display: none;
+    }
+
+    header {
+        justify-content: start;
+    }
+
+    .headermenu {
+        display: block;
+        position: static;
+    }
+
+    nav li {
+        display: inline-block;
+        padding: 0px;
+    }
+    
+    .cart-order {
+        font-size: 1em;
+    }
+
+    .homepage-button {
+        font-size: 1em;
+    }
+
+    }
+
+    @media (min-width: 1000px){
+        .background-section {
+            min-height: 90vh;
+    } 
+    }
+    

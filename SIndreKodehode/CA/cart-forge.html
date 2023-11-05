@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Find your favorite game on Gamehub, the universe of games">
+    <title>Gamehub | Cart</title>
+    <link rel="stylesheet" href="/CA/css/cart-full.css">
+    <link rel="icon" type="image/png/ico" sizes="16x16" href="/CA/favicon/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Oswald&family=Roboto&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/aa01c91341.js" crossorigin="anonymous"></script>
+</head>
+<header>
+    <section class="logo">
+        <a href="/CA/index.html"><img src="/CA/images/GameHub_Logo.png" alt="Gamehub logo"></a>
+    </section>
+    <label for="hamburger-menu"><i class="fa-solid fa-bars"></i></label>
+    <input type="checkbox" id="hamburger-menu"/>
+    <nav class="headermenu">
+        <li class="header-button"><a href="/CA/index.html">Home</a></li>
+        <li class="header-button"><a href="/CA/games.html">Games</a></li>
+        <li class="header-button"><a href="/CA/aboutus.html">About us</a></li>
+        <li class="header-button"><a href="/CA/contact.html">Contact</a></li>
+</nav>
+<a href="/CA/cartempty.html"><i class="fa-solid fa-cart-shopping";></i></a>
+</header>
+<body>
+    <main>
+        <section class="background-section">
+            <div class="gamecover">
+                <img src="/CA/images/forgelegend.jpg" alt="Forge Legend Cover">
+                <h1>FORGE LEGEND</h1>
+                <p>$ 19</p>
+                <a href="/CA/cartempty.html" class="remove-text">Remove</a>
+            </div>
+            <div class="form">
+        <form action="/CA/order-confirmation.html" method="get">
+                <h2>Checkout info</h2>
+                <br>
+                <div class="row">
+                <div class="input-group">
+                <input type="text" id="name" name="name" placeholder="Your name" class="form__input">
+            </div>
+            <div class="input-group">
+                <input type="email" id="email" name="email" placeholder="Email" class="form__input">
+            </div>
+            </div>
+            <div class="input-group">
+                <input type="number" id="phone" name="phone" placeholder="Phone No." class="form__input">
+            </div>
+            <div class="input-group">
+                <input type="text" id="cardholder-name" name="cardholder-name" placeholder="Name of Cardholder" class="form__input">
+            </div>
+            <div class="input-group">
+                <input type="number" id="card" name="card" placeholder="Card No." class="form__input">
+            </div>
+            <div class="input-group">
+                <input type="number" id="CVC" name="CVC" placeholder="CVV/CVC" class="form__input">
+            </div>
+                <button type="submit" class="button">PURCHASE</button>
+            </form>
+        </div>
+        </section>
+    </main>
+</body>
+<footer>
+    Copyright &copy;
+</footer>

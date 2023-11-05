@@ -1,0 +1,256 @@
+header, body, footer {
+    font-family: 'Lato', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    min-height: 70px;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    justify-content: space-evenly;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.header-button {
+    font-size: 1.5rem;
+}
+
+.logo img  {
+    max-width: 110px;
+    float: left;
+    margin: 0px 40px 0px 0px;
+}
+
+body {
+    background-color: #000A1B;
+    color: #fff;
+    margin: 0;
+}
+
+.current {
+    text-decoration: underline;
+}
+
+footer {
+    color: white;
+    background-color: #000712;
+
+}
+
+nav li {
+    display: block;
+    padding: 30px 30px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a {
+    color: #000A1B;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.headermenu {
+    margin-left: 25px;
+    display: none;
+    position: fixed;
+    top: 45px;
+    right: 20px;
+    background-color: #fff;
+}
+
+#hamburger-menu:checked ~ nav {
+    display: block;
+}
+
+#hamburger-menu {
+    display: none;
+}
+
+.fa-bars {
+font-size: 1.5em;
+color: #000a1b;
+}
+
+.fa-cart-shopping {
+    color: #000a1b;
+    font-size: 1.5em;
+}
+
+.background-section {
+    background-repeat: no-repeat;
+    background-image: linear-gradient(90deg, rgba(0,0,0,0.5046393557422969) 38%, rgba(0,0,0,0) 100%), url(/CA/images/iStock-1354761874.jpg);
+    background-size: cover;
+    min-height: 30vh;
+    font-size: 2rem;
+    background-position-x: left;
+    background-position-y: top;
+    position: relative;
+}
+
+.aboutusmain {
+    margin: auto;
+}
+
+
+.logo-aboutus {
+    width: 200px;
+    grid-area: logo-aboutus;
+}
+
+.aboutus {
+grid-area: aboutus;
+}
+
+.aboutus1 {
+grid-area: aboutus1;
+}
+
+.aboutus2 {
+    grid-area: aboutus2;
+}
+
+.what-sets-us-apart {
+    grid-area: what-sets-us-apart;
+}
+
+.aboutus {
+    display: grid;
+    grid-template-areas: 
+    'aboutus1'
+    'logo-aboutus'
+    'aboutus2'
+    'aboutus3';
+    margin: auto;
+    gap: 60px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    min-height: 70px;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    justify-content: space-evenly;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.header-button {
+    font-size: 1.5rem;
+}
+
+.logo img  {
+    max-width: 110px;
+    float: left;
+    margin: 0px 40px 0px 0px;
+}
+
+body {
+    background-color: #000A1B;
+    color: #fff;
+    margin: 0;
+}
+
+.current {
+    text-decoration: underline;
+}
+
+footer {
+    color: white;
+    background-color: #000712;
+
+}
+
+nav li {
+    display: block;
+    padding: 30px 30px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a {
+    color: #000A1B;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.headermenu {
+    margin-left: 25px;
+    display: none;
+    position: fixed;
+    top: 45px;
+    right: 20px;
+    background-color: #fff;
+}
+
+#hamburger-menu:checked ~ nav {
+    display: block;
+}
+
+#hamburger-menu {
+    display: none;
+}
+
+.fa-bars {
+font-size: 1.5em;
+color: #000a1b;
+}
+
+@media (min-width: 600px){
+    .background-section {
+        min-height: 60vh;
+    }
+}
+
+@media (min-width: 800px){
+    header label {
+        display: none;
+    }
+
+    header {
+        justify-content: start;
+    }
+
+    .headermenu {
+        display: block;
+        position: static;
+    }
+
+    nav li {
+        display: inline-block;
+        padding: 0px;
+    }
+
+    .logo-aboutus {
+        width: 300px;
+        }
+}
+
+@media (min-width: 1200px){
+    .logo-aboutus {
+        width: 400px;
+        margin: auto;
+        }
+
+    .aboutus {
+        display: grid;
+        grid-template-areas: 
+        'aboutus1 logo-aboutus'
+        'aboutus2 aboutus3';
+        }
+}
